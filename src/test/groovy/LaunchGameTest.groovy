@@ -19,7 +19,7 @@ class LaunchGameTest {
   void test() {
     File input = new File('target/user-input.txt').tap { createNewFile() }.tap { text = 'Uno Tester' }
     File output = new File('target/process-output.log')
-    process = new ProcessBuilder('java', '-jar', 'uno-1.0-SNAPSHOT-jar-with-dependencies.jar').tap {
+    process = new ProcessBuilder('java', '-jar', 'uno-game-1.0-SNAPSHOT-jar-with-dependencies.jar').tap {
       directory(new File('target'))
       redirectOutput(output)
       redirectErrorStream(true)

@@ -31,7 +31,7 @@ but without points counting and multiple iterations*.
 _Java 17+_ is required.
 
 ```bash
-java -jar uno-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar uno-game-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ### Game Process
