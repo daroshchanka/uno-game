@@ -1,6 +1,6 @@
 ## uno-game
 
-![java](https://img.shields.io/badge/java-1.8+-blue.svg)
+![java](https://img.shields.io/badge/java-17+-blue.svg)
 
 ```groovy
                                  ____ ___        ________
@@ -28,7 +28,7 @@ but without points counting and multiple iterations*.
 
 ### Start the Game
 
-_Java 1.8+_ is required.
+_Java 17+_ is required.
 
 ```bash
 java -jar uno-1.0-SNAPSHOT-jar-with-dependencies.jar

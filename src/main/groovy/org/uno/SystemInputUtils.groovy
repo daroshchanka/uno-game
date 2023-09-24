@@ -6,7 +6,9 @@ import groovy.util.logging.Log4j2
 class SystemInputUtils {
 
     static String readLine() {
-        new BufferedReader(new InputStreamReader(System.in)).readLine()
+        String s = new BufferedReader(new InputStreamReader(System.in)).readLine()
+        log.debug("readLine: $s")
+        s
     }
 
     static String enterIntegerByRule(String errorMessage, Closure rule) {
